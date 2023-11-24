@@ -18,7 +18,7 @@ This project was created with Vite, React, and Tailwind CSS, making it a modern 
 
 ## Demo
 
-You can access the live demo of the REST Countries API Flag project by clicking the following link: [REST Countries API Flag Demo](https://front-end-mentor-rest-countries-eta.vercel.app)
+You can access the live demo of the REST Countries API Flag project by clicking the following link: [REST Countries API Flag Demo](https://challenge-frontend-mentor-sand.vercel.app/)
 
 ## Screenshots
 
