@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .HoverList{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  .DarkHoverList{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  .HoverList:hover{
+    background-color: #f9f9f9c7;
+  }
+  .DarkHoverList:hover{
+    background-color: #202C36;
+  }
+  #Darksearch:focus{
+    outline: 1px solid #848484;
+  }
+  #search:focus{
+    outline: 1px solid black;
+  }
