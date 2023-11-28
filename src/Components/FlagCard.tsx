@@ -19,7 +19,7 @@ export const FlagCard = ({ element }: Props) => {
     >
       <Link
         to={`/country/${element?.name}`}
-        className="w-full"
+        className="w-[250px]"
         style={{
           textDecoration: 'none',
         }}
@@ -27,8 +27,8 @@ export const FlagCard = ({ element }: Props) => {
         <img
           className="shadow-md rounded-tl-[5px] rounded-tr-[5px]"
           alt={element?.name}
-          width="100%"
-          height="130px"
+          width={250}
+          height={150}
           src={`${element?.flags?.png}`}
         ></img>
       </Link>
