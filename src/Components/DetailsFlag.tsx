@@ -14,6 +14,8 @@ export const DetailsFlag = () => {
   const NewData = DataFilter;
   const { DarkMode } = useContext();
 
+  console.log("NewData", NewData);
+
   if (!NewData) {
     return (
       <>
